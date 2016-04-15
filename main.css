@@ -1,0 +1,48 @@
+body {
+  background-color: #eee;
+}
+h1, p {
+  font-family: Helvetica, Arial;
+}
+h1 {
+  text-align: center;
+}
+h1 small {
+  display: block;
+}
+p {
+  font-size: 80%;
+}
+.buttons {
+  overflow-y: auto;
+  white-space: nowrap;
+}
+.buttons button {
+  font-weight: 700;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin: 5px;
+}
+.buttons button:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+.buttons button.selected {
+  background-color: #78c0da;
+  color: #fff;
+}
+
+svg {
+  display: block;
+  margin: 10px auto;
+}
+circle {
+  fill: #78c0da;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+text {
+  fill: #fff;
+}
